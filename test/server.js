@@ -4,7 +4,7 @@ var rp = require('request-promise');
 
 describe('Message Server', function() {
     var messageServer;
-    var port = 8080;
+    var port = 3000;
     var url = 'http://localhost:' + port;
 
     beforeEach(function() {
